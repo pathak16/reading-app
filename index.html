@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Reading App</title>
+  <meta name="description" content="Log what you're reading, share a daily learning, and keep your team reading streak alive.">
+  <meta name="theme-color" content="#fbf9f6">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Reading App">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,300..500,0..1,0&display=block">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="topbar" id="topbar" hidden></header>
+  <main class="view" id="view"></main>
+  <nav class="tabbar" id="tabbar" hidden>
+    <a href="#/feed" data-tab="feed"><span class="icon" aria-hidden="true">auto_stories</span>Feed</a>
+    <a href="#/post" data-tab="post" class="fab" aria-label="Share a learning"><span class="icon" aria-hidden="true">add</span></a>
+    <a href="#/profile" data-tab="profile"><span class="icon" aria-hidden="true">person</span>Profile</a>
+  </nav>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
